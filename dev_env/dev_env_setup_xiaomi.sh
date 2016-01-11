@@ -48,6 +48,6 @@ sudo apt-get install autoconf
 sudo apt-get install libtool
 sudo apt-get install pkg-config
 sudo apt-get install intltool 
-
+sudo apt-get install byacc
 
 
