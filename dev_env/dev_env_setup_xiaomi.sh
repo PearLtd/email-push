@@ -41,7 +41,7 @@ sudo echo 'export GCC=$TOOLCHAIN_PATH/bin/arm-xiaomi-linux-uclibcgnueabi-gcc' >>
 sudo echo 'export CXX=$TOOLCHAIN_PATH/bin/arm-xiaomi-linux-uclibcgnueabi-g++' >> $TOOLCHAIN_PROFILE
 sudo echo 'export RANLIB=$TOOLCHAIN_PATH/bin/arm-xiaomi-linux-uclibcgnueabi-ranlib' >> $TOOLCHAIN_PROFILE
 
-source /etc/profile
+sudo source /etc/profile
 
 sudo apt-get autoremove
 sudo apt-get install build-essential
